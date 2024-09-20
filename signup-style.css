@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.box{
+    border-radius: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 750px;
+    height: 560px;
+    background: white;
+    overflow: hidden;
+}
+
+.inline-text{
+    color: white;
+    position: absolute;
+    top: 32px;
+    left: 55px;
+}
+
+.inline-text h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.inline-text p{
+    color: rgb(228, 228, 228);
+    opacity: 0.9;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.box1{
+    background: url(img/bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    
+}
+
+.box2 .user-data input:focus ~ label,
+.box2 .user-data input:valid ~ label{
+    top: -20px;
+    font-size: 12px;
+
+}
+
+.box2 .user-data input:focus{
+    border-bottom: 1px solid #287402
+}
+
+.box2 .button input{
+    width: 280px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    background: white;
+}
+
+.user-id p{
+    font-size: 12px;
+    color: rgb(173, 173, 173);
+}
+
+.box2 .button input[type=submit]{
+    background: rgb(22, 21, 21);
+    border-radius: 2px;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    outline: none;
+    transition: 0.5s;
+    margin-top: none;
+}
+
+.box2 .button input[type=submit]:hover{
+    box-shadow: 2px 3px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.user-id .footer {
+    position: absolute;
+    top: 500px;
+    left: 51px;
+    font-weight: 600;
+    text-decoration: none;
+    /* color: #2874f0; */
+}

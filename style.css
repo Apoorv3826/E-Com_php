@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size : 2.5rem;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+h4{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+h5{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #1d1d1d;
+}
+
+h6{
+    color: #d8d8d8;
+}
+
+button{
+    font-size: 0.7rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: #1d1d1d;
+    color: aliceblue;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+button :hover{
+    opacity: 0.6;
+}
+
+hr{
+    width: 30px;
+    height: 2px;
+    background-color: #1d1d1d;
+}
+
+.star{
+    padding: 10px 0;
+}
+
+.star i{
+    font-size: 0.8rem;
+    color: goldenrod;
+}
+.navbar-brand .navbar-nav1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 1.6rem;
+    padding: 2px 15px;
+    text-align: left;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 5px;
+    list-style-type: none;
+} */
+
+ .navbar-nav1 :hover {
+    color: rgb(190, 175, 175);
+}
+ .navbar .navbar-brand i{
+    color: #fff;
+}
+
+.navbar{
+    font-size: 16px;
+    top: 0;
+    left: 0;
+    background-color: #000;
+}
+.navbar .navbar-brand {
+    font-family: 'Teko', sans-serif;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.navbar .navbar-brand:hover{
+    color: rgb(241, 235, 235);
+}
+.navbar .navbar-nav{
+    display: flex;
+    align-items: center;
+}
+.navbar .navbar-nav li a{
+    color: #fff;
+    /* padding: 18px 8px; */
+    
+}
+.navbar-nav .d-flex{
+    width: 600px;
+    display: flex;
+}
+.navbar-nav .d-flex .form-control{
+    width: 80%;
+    height: 38px;
+    padding: 10px;
+
+}
+.navbar-nav .nav-item{
+    margin-left: 15px;
+    /* width: 30px; */
+}
+.navbar .nav-item{
+    margin-left: 20px;
+} 
+
+
+.footer .navbar-brand{
+    color: #fff;
+}
+
+.footer .navbar-brand :hover{
+    color: #fff;
+}
+
+/* products */
+
+.product{
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.product img{
+    transition: 0.3s all;
+}
+
+.product:hover img{
+    opacity: 0.7;
+}
+
+.product .buy-btn{
+    background: #1d1d1d;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+
+.product:hover .buy-btn{
+
+    transform: translateY(0);
+    opacity: 1;
+}
+
