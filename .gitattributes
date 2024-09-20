@@ -1,0 +1,5 @@
+*.php linguist-detectable
+vendor/* linguist-vendored
+*.html linguist-detectable
+*.css linguist-detectable
+*.js linguist-detectable
